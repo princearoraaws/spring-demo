@@ -13,7 +13,6 @@ public class SpringDemoApplicationBasic {
 	public static void main(String[] args) {
 		
 		//BinarySearchImpl binarySearch = new BinarySearchImpl(new QuickSortAlgo());
-		
 		ApplicationContext appCtx = new AnnotationConfigApplicationContext(SpringDemoApplicationBasic.class);
 		BinarySearchImpl binarySearch = appCtx.getBean(BinarySearchImpl.class);
 		BinarySearchImpl binarySearch1 = appCtx.getBean(BinarySearchImpl.class);
