@@ -14,15 +14,10 @@ public class BinarySearchImpl {
 	@Qualifier("quick")
 	private SortAlgo sortAlgo;
 	
-	
-	
-	
 	/*
 	 * public BinarySearchImpl(SortAlgo sortAlgo) { super(); this.sortAlgo =
 	 * sortAlgo; }
 	 */
-	 
-
 
 
 	/*
